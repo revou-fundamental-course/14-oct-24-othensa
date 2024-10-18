@@ -1,5 +1,39 @@
 .main-header {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+}
+
+nav>a {
+    border: 1px solid;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.photo-banner {
+    height: 250px;
+    background-image: url();
+    background-size: cover;
+    background-position: top;
+    border-radius: 50%;
+}
+
+footer>div {
+    text-align: center;
+    font-family: serif;
+    font-size: small;
 }
