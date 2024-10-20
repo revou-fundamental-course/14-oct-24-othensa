@@ -84,6 +84,10 @@ button {
     display: flex;
 }
 
+form {
+    height: fit-content;
+}
+
 
 footer>div {
     text-align: center;
