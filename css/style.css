@@ -7,7 +7,7 @@
 .logo-icon {
     height: 50px;
     width: 50px;
-    background-image: url(assets\test-logo.jpg);
+    background-image: url(../assets/logo.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -19,17 +19,47 @@ nav {
 
 nav>a {
     border: 1px solid;
-    padding: 8px;
+    padding: 7px;
     text-decoration: none;
     color: black;
 }
 
+#section-home>header>h1 {
+    margin-bottom: 10px;
+}
+
+#section-home>article>p {
+    font-style: italic;
+    font-family: helvetica;
+    
+}
+
 .photo-banner {
-    height: 250px;
-    background-image: url();
+    background-image: url(../assets/banner.jpg);
     background-size: cover;
-    background-position: top;
-    border-radius: 50%;
+    background-position: center;
+    height: 533.7px;
+    width: 948.8px;
+}
+
+
+.works-1 {
+    background-image: url(https://pbs.twimg.com/media/GHGl5yeaEAAHyr9?format=jpg&name=4096x4096);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+}
+
+.works-2 {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 430px;
+}
+
+.message-container {
+    display: flex;
 }
 
 footer>div {
