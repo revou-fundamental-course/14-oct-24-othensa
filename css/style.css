@@ -55,6 +55,7 @@ nav>a {
     background-size: cover;
     background-position: center;
     border: 1px solid;
+    border-color: black;
     height: 298.36px;
     width: 300px;
 }
@@ -64,6 +65,7 @@ nav>a {
     background-size: cover;
     background-position: center;
     border: 1px solid;
+    border-color: black;
     height: 298.36px;
     width: 300px;
 }
@@ -73,6 +75,7 @@ nav>a {
     background-size: cover;
     background-position: top;
     border: 1px solid;
+    border-color: black;
     height: 298.36px;
     width: 300px;
 }
