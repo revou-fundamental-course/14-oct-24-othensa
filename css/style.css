@@ -22,6 +22,7 @@ nav>a {
     padding: 7px;
     text-decoration: none;
     color: black;
+    border-radius: 5%;
 }
 
 #section-home>header>h1 {
@@ -42,20 +43,26 @@ nav>a {
     width: 948.8px;
 }
 
+.section-works {
+    display: flex;
+}
 
 .works-1 {
     background-image: url(https://pbs.twimg.com/media/GHGl5yeaEAAHyr9?format=jpg&name=4096x4096);
     background-size: cover;
     background-position: center;
+    border: 1px solid;
     height: 300px;
     width: 300px;
 }
 
 .works-2 {
+    background-image: url(https://pbs.twimg.com/media/F9ITKW9bsAA3q8E?format=jpg&name=medium);
     background-size: cover;
     background-position: center;
+    border: 1px solid;
     height: 300px;
-    width: 430px;
+    width: 300px;
 }
 
 .message-container {
