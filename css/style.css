@@ -67,9 +67,9 @@ nav>a {
 }
 
 .works-3 {
-    background-image: url(https://pbs.twimg.com/media/FvXEPXiakAAm7kb?format=jpg&name=medium);
+    background-image: url(https://pbs.twimg.com/media/Fmbv3-GakAIAUF4?format=jpg&name=small);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     border: 1px solid;
     height: 298.36px;
     width: 300px;
