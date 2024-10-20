@@ -45,6 +45,7 @@ nav>a {
 
 #section-works>article {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .works-1 {
@@ -52,7 +53,7 @@ nav>a {
     background-size: cover;
     background-position: center;
     border: 1px solid;
-    height: 300px;
+    height: 298.36px;
     width: 300px;
 }
 
@@ -61,7 +62,16 @@ nav>a {
     background-size: cover;
     background-position: center;
     border: 1px solid;
-    height: 300px;
+    height: 298.36px;
+    width: 300px;
+}
+
+.works-3 {
+    background-image: url(https://pbs.twimg.com/media/FvXEPXiakAAm7kb?format=jpg&name=medium);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid;
+    height: 298.36px;
     width: 300px;
 }
 
