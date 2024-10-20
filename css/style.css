@@ -75,18 +75,15 @@ nav>a {
     width: 300px;
 }
 
-#section-works>a {
-    background-color: #000000;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    display: inline-block;
-    border-radius: 10%;
+button {
+    margin: 7px;
+    justify-items: center;
 }
 
 .message-container {
     display: flex;
 }
+
 
 footer>div {
     text-align: center;
