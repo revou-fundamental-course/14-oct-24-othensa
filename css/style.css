@@ -25,11 +25,11 @@ nav>a {
     border-radius: 5%;
 }
 
-#section-home>body>h1 {
+#section-home>header>h1 {
     margin-bottom: 7px;
 }
 
-#section-home>body>p {
+#section-home>p {
     font-style: italic;
     font-family: helvetica;
     margin-top: 5px;
@@ -41,7 +41,7 @@ nav>a {
     background-image: url(../assets/banner.jpg);
     background-size: cover;
     background-position: center;
-    height: 685.13px;
+    height: auto;
     width: 1218px;
 }
 
