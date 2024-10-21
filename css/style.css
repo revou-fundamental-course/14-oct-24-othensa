@@ -34,7 +34,10 @@ nav>a {
     font-family: helvetica;
     margin-top: 5px;
     margin-bottom: 5px;
-    
+}
+
+#section-home>button {
+    margin-bottom: 10px;
 }
 
 .photo-banner {
@@ -90,8 +93,10 @@ nav>a {
     width: 300px;
 }
 
-button {
+#section-works>button {
+    display: flex;
     margin: 7px;
+    margin-left: 750px;
     justify-items: center;
 }
 
