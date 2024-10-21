@@ -25,11 +25,11 @@ nav>a {
     border-radius: 5%;
 }
 
-#section-home>body>h1 {
-    margin: 0%;
+#section-home>header>h1 {
+    margin-bottom: 3px;
 }
 
-#section-home>article>p {
+#section-home>header>p {
     font-style: italic;
     font-family: helvetica;
     margin-top: 0px;
