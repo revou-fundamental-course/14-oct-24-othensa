@@ -3,4 +3,6 @@ function replaceName {
 document.getElementById("nickname").innerHTML = nickname
 }
 
-document.getElementById("fillnickname").addEventListener("click", replaceName())
+document.getElementById("fillnickname").addEventListener("click", function() {
+    replaceName();
+}
