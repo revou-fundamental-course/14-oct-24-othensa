@@ -3,4 +3,7 @@ function replaceName {
     document.getElementById("name").innerHTML = name 
 }
 
-replaceName() ;
+let changename = document.getElementById("changename")
+changename.addEventListener("click", function() {
+    replaceName();
+})
