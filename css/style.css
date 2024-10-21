@@ -26,14 +26,14 @@ nav>a {
 }
 
 #section-home>header>h1 {
-    margin-bottom: 3px;
+    margin-bottom: 7px;
 }
 
 #section-home>header>p {
     font-style: italic;
     font-family: helvetica;
-    margin-top: 0px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     
 }
 

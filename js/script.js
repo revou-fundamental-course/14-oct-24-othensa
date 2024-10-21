@@ -1,9 +1,2 @@
-function replaceName {
-    let name = prompt("What's your name?", "")
-    document.getElementById("name").innerHTML = name 
-}
-
-let changename = document.getElementById("changename")
-changename.addEventListener("click", function() {
-    replaceName();
-})
+let name = prompt("Siapa nama anda", "")
+document.getElementById("nickname").innerHTML = "A"
