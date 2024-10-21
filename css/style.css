@@ -95,12 +95,16 @@ button {
     justify-items: center;
 }
 
-.message-container {
+.section-message-us {
     display: flex;
 }
 
-form {
-    height: fit-content;
+.message-form {
+    height: 100px;
+}
+
+.container {
+    border-style: groove;
 }
 
 

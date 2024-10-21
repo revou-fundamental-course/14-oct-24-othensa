@@ -92,13 +92,13 @@
         <hr />
 
         <!--section message us-->
-        <section id="section-message-us"></section>
+        <section id="section-message-us">
         <header>
             <h1>Message Us</h1>
         </header>
 
-            <div class="message-container">
-            <form action=""method="post">
+            <div>
+            <form name="message-form" onsubmit="return ValidateForm()">
                 <table>
                     <tr>
                         <td>
@@ -136,6 +136,14 @@
                 </table>
             </form>
             </div>
+
+        <div name id="container">
+            <label>Name: <span id="name">-</span></label>
+            <label>Email: <span id="email">-</span></label>
+            <label>Message: <span id="message">-</span></label>
+        </div>
+    </section>
+
 
 
     </main>
