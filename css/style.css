@@ -41,8 +41,8 @@ nav>a {
     background-image: url(../assets/banner.jpg);
     background-size: cover;
     background-position: center;
-    height: auto;
-    width: 1218px;
+    width: 1500px;
+    height: 843.75px;
 }
 
 #section-works>article {
