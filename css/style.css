@@ -80,6 +80,16 @@ nav>a {
     width: 300px;
 }
 
+.works-4 {
+    background-image: url(https://pbs.twimg.com/media/Fc8Ak4raMAAlp5c?format=jpg&name=medium);
+    background-size: cover;
+    background-position: top;
+    border: 1px solid;
+    border-color: black;
+    height: 298.36px;
+    width: 300px;
+}
+
 button {
     margin: 7px;
     justify-items: center;
