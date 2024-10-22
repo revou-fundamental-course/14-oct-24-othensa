@@ -1,4 +1,3 @@
-alert("DONE")
 function replaceName {
     let nickname = prompt("Siapa nama anda", "")
 document.getElementById("nickname").innerHTML = nickname
