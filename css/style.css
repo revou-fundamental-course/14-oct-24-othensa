@@ -11,7 +11,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-}
+}   
 
 nav {
     display: flex;
@@ -44,8 +44,8 @@ nav>a {
     background-image: url(../assets/banner.jpg);
     background-size: cover;
     background-position: center;
-    width: 1500px;
-    height: 843.75px;
+    width: 1670px;
+    height: 939.38px;
 }
 
 #section-works>article {
