@@ -47,9 +47,11 @@ nav>a {
 }
 
 .sliders {
-    width: 2260px;
-    max-width: 100vw;
-    height: 1271.25px;
+    width: 100%;
+}
+
+.slides {
+    width: 100%;
 }
 
 #section-works>article {

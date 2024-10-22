@@ -1,3 +1,4 @@
+alert("DONE")
 function replaceName {
     let nickname = prompt("Siapa nama anda", "")
 document.getElementById("nickname").innerHTML = nickname
@@ -24,21 +25,21 @@ otomatis();
 
 function otomatis()
 {
-    const sliders = document.querySelectorAll(".slider");
+const sliders = document.querySelectorAll(".slides");
 
-    for (let i = 0; i < sliders;length; i++)
-    {
-        sliders[i].style.display = "none";
-    }
+for (let i = 0; i < sliders.length; i++)
+{
+    sliders[i].style.display = "none";
+}
 
-    if (start >= sliders.length)
-    {
-        start = 0;
-    }
+if (start >= sliders.length)
+{
+    start = 0;
+}
 
-    sliders[start].style.display = "block";
-    console.log("gambar ke" +start);
-    start++;
+sliders[start].style.display = "block";
+console.log(gambar ke" +start);
+start++;
 
-    setTimeout(otomatis, 2000);
+setTimeout(otomatis, 2000);
 }
