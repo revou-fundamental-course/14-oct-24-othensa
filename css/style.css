@@ -54,6 +54,10 @@ nav>a {
     width: 100%;
 }
 
+.slides>img {
+    width: 100%;
+}
+
 #section-works>article {
     display: flex;
     justify-content: space-evenly;
@@ -106,17 +110,17 @@ nav>a {
     justify-items: center;
 }
 
-#section-message-us {
+.section-message-us {
     display: flex;
 }
 
-#section-message-us>form {
+.section-message-us>form {
     width: 750px;
     display: flex;
     align-items: center;   
 }
 
-#section-message-us>div {
+.section-message-us>div {
     border-style: groove;
     border: 1px solid;
     width: 500px;

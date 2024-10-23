@@ -1,44 +1,50 @@
-function replaceName {
-    let nickname = prompt("Siapa nama anda", "")
-document.getElementById("nickname").innerHTML = nickname
+function validateForm() {
+    let inputName = document.getElementById("input-name").value;
+    if (inputName == "") {
+        alert("Fill the blank");
+    } else {
+        document.getElementById("result-name").innerHTML = inputName;
+        console.log(inputName); 
+    }
 }
 
-document.getElementById("fillnickname").addEventListener("click", function() {
-    replaceName();
+function validateForm() {
+    let inputEmail = document.getElementById("input-email").value;
+    if (inputEmail == "") {
+        alert("Fill the blank");
+    } else {
+        document.getElementById("result-email").innerHTML = inputEmail;
+        console.log(inputEmail); 
+    }
 }
 
-function validateForm {
-    const name = document.form["message-form"]["name"].value
-    const name = document.form["message-form"]["email"].value
-    const name = document.form["message-form"]["message"].value
+function validateForm() {
+    let inputMessage = document.getElementById("input-message").value;
+    if (inputMessage == "") {
+        alert("Fill the blank");
+    } else {
+        document.getElementById("result-message").innerHTML = inputMessage;
+        console.log(inputMessage); 
+    }
 }
-
-document.getElementById("name"). innerHTML = name;
-document.getElementById("email"). innerHTML = email;
-document.getElementById("message"). innerHTML = message;
-
-return false;
 
 let start = 0;
-otomatis();
+otomatic();
 
-function otomatis()
-{
-const sliders = document.querySelectorAll(".slides");
+function otomatic() {
+    const sliders = document.querySelectorAll(".slides");
 
-for (let i = 0; i < sliders.length; i++)
-{
-    sliders[i].style.display = "none";
-}
+    for (let i = 0; i < sliders.length; i++) {
+        sliders[i].style.display = "none";
+    }
 
-if (start >= sliders.length)
-{
-    start = 0;
-}
+    if (start >= sliders.length) {
+       start = 0; 
+    }
 
-sliders[start].style.display = "block";
-console.log(gambar ke" +start);
-start++;
+    sliders[start].style.display = "block";
+    console.log("banner" +start)
+    start++;
 
-setTimeout(otomatis, 2000);
+    setTimeout(otomatic, 2000);
 }
