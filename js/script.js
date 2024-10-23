@@ -6,9 +6,7 @@ function validateForm() {
         document.getElementById("result-name").innerHTML = inputName;
         console.log(inputName); 
     }
-}
 
-function validateForm() {
     let inputEmail = document.getElementById("input-email").value;
     if (inputEmail == "") {
         alert("Fill the blank");
@@ -16,9 +14,7 @@ function validateForm() {
         document.getElementById("result-email").innerHTML = inputEmail;
         console.log(inputEmail); 
     }
-}
 
-function validateForm() {
     let inputMessage = document.getElementById("input-message").value;
     if (inputMessage == "") {
         alert("Fill the blank");
