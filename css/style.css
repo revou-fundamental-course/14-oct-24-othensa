@@ -125,12 +125,9 @@ nav>a {
     font-size: medium;
 }
 
-.section-message-us {
+.section-message-us>form {
     display: flex;
     font-family: helvetica;
-}
-
-.section-message-us>form {
     width: 750px;
     display: flex;
     flex-wrap: wrap;
@@ -140,7 +137,7 @@ nav>a {
 .section-message-us>div {
     border-style: groove;
     border: 1px solid;
-    width: 500px;
+    width: auto;
 }
 
 /*copyright*/
