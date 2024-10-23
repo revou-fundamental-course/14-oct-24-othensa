@@ -1,7 +1,12 @@
+
+
+/*logo icon & navigasi bar*/
 .main-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    background-color: #96E1CE;
 }
 
 .logo-icon {
@@ -11,29 +16,33 @@
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    margin: 5px;
 }   
 
 nav {
     display: flex;
+    flex-wrap: wrap;
+    margin-right: 5px;
 }
 
 nav>a {
     border: 1px solid;
     padding: 7px;
     text-decoration: none;
-    color: black;
+    color: white;
     border-radius: 5%;
 }
 
+/*konten*/
 #section-home>header>h1 {
-    margin-bottom: 7px;
+    margin-bottom: 0px;
 }
 
-#section-home>p {
+#section-home>header>p {
     font-style: italic;
     font-family: helvetica;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 #section-home>button {
@@ -60,6 +69,7 @@ nav>a {
 
 #section-works>article {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -104,19 +114,26 @@ nav>a {
 }
 
 #section-works>button {
-    display: flex;
-    margin: 7px;
-    margin-left: 750px;
+    display: flex
+    flex-wrap: wrap;
     justify-items: center;
+}
+
+#section-profile>header>p {
+    margin-top: 5px;
+    font-family: helvetica;
+    font-size: medium;
 }
 
 .section-message-us {
     display: flex;
+    font-family: helvetica;
 }
 
 .section-message-us>form {
     width: 750px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;   
 }
 
@@ -126,7 +143,7 @@ nav>a {
     width: 500px;
 }
 
-
+/*copyright*/
 footer>div {
     text-align: center;
     font-family: serif;
